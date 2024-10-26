@@ -1,0 +1,1708 @@
+<!DOCTYPE html>
+
+<html class="marketing_layout" lang="EN">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+
+    <meta name="theme-color" content="#3E3168">
+
+    <script src="index.js"></script>
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="stylesheet.css" /> -->
+</head>
+
+<body>
+    <div>
+        <div>
+            <div class="max-width-4 mx-auto flex flex-column rowgap3-25">
+                <div class="bg-neutral-0 rounded-16 box-shadow-heavier mb4 px2-5 sm-px3 pt2-5 pb3-5 sm-pb4">
+                    <form class="simple_form simple_form client_form" id="new_quick_quote" action="#"
+                        accept-charset="UTF-8" method="post">
+                        <div id="quick-quote-project-details">
+                            <div class="col col-12 mb3-5 md-mb4">
+                                <div>
+                                    <div class="ml0">
+                                        <h3 class="text-secondary-800 m0 mb2 text-xs md-text-s">
+                                            What sort of property is
+                                            this?
+                                        </h3>
+                                    </div>
+
+                                    <fieldset class=" grid-form grid-form-2 md-grid-form-5 gap1 " role="radiogroup">
+
+                                        <div data-component="tile-card-selector-component"
+                                            class="tile-card-selector-component fullheight">
+
+
+                                            <label class="relative fullheight block" tabindex="0">
+                                                <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                    value="detached" name="quick_quote[property_type]"
+                                                    id="quick_quote_property_type_detached" />
+
+
+
+                                                <div
+                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                    <img class="h50 flex-none"
+                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/detached-35970db5460665aed5d931f2b6b2ddd141a7db12a8ed71966872aab630972fe7.svg" />
+
+                                                    <span class="text-secondary-900 text-l fw400 center">Detached</span>
+                                                </div>
+
+                                            </label>
+
+                                        </div>
+
+
+                                        <div data-component="tile-card-selector-component"
+                                            class="tile-card-selector-component fullheight">
+
+
+                                            <label class="relative fullheight block" tabindex="0">
+                                                <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                    value="semi_detached" name="quick_quote[property_type]"
+                                                    id="quick_quote_property_type_semi_detached" />
+
+
+
+                                                <div
+                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                    <img class="h50 flex-none"
+                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/semi_detached-ab62975351739d47dac9f9f1a3bad654fc44cb58fc8fbc1aea27660bd4511823.svg" />
+
+                                                    <span class="text-secondary-900 text-l fw400 center">Semi
+                                                        Detached</span>
+                                                </div>
+
+                                            </label>
+
+                                        </div>
+
+
+                                        <div data-component="tile-card-selector-component"
+                                            class="tile-card-selector-component fullheight">
+
+
+                                            <label class="relative fullheight block" tabindex="0">
+                                                <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                    value="terrace" name="quick_quote[property_type]"
+                                                    id="quick_quote_property_type_terrace" />
+
+
+
+                                                <div
+                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                    <img class="h50 flex-none"
+                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/terrace-3d3f60b8f5d4d65ab59175ed8f260f963c5968be7fbb908c38a70fc47f97cb03.svg" />
+
+                                                    <span class="text-secondary-900 text-l fw400 center">Terrace</span>
+                                                </div>
+
+                                            </label>
+
+                                        </div>
+
+
+                                        <div data-component="tile-card-selector-component"
+                                            class="tile-card-selector-component fullheight">
+
+
+                                            <label class="relative fullheight block" tabindex="0">
+                                                <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                    value="flat" name="quick_quote[property_type]"
+                                                    id="quick_quote_property_type_flat" />
+
+
+
+                                                <div
+                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                    <img class="h50 flex-none"
+                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/flat-6006db9ebd0f47d859b01119668609316e6104ed4e069b217baee954e5879409.svg" />
+
+                                                    <span class="text-secondary-900 text-l fw400 center">Flat</span>
+                                                </div>
+
+                                            </label>
+
+                                        </div>
+
+
+                                        <div data-component="tile-card-selector-component"
+                                            class="tile-card-selector-component fullheight">
+
+
+                                            <label class="relative fullheight block" tabindex="0">
+                                                <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                    value="bungalow" name="quick_quote[property_type]"
+                                                    id="quick_quote_property_type_bungalow" />
+
+
+
+                                                <div
+                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                    <img class="h50 flex-none"
+                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/bungalow-12190872d79c088b519c449d90cb0716bb2cbe68a729a5eb283d494adb948758.svg" />
+
+                                                    <span class="text-secondary-900 text-l fw400 center">Bungalow</span>
+                                                </div>
+
+                                            </label>
+
+                                        </div>
+
+                                    </fieldset>
+
+
+                                </div>
+
+                            </div>
+
+                            <div class="col col-12 mb3-5 md-mb4">
+                                <div id="property_element_form">
+                                    <h3 class="text-secondary-800 m0 mb2 text-xs md-text-s">
+                                        And which bit do you want to extend?
+                                    </h3>
+                                    <div id="08b9451c-2a93-415a-9b76-02121565dae7">
+                                        <div class="element_selector grid-form grid-form-2 md-grid-form-4 gap1 "
+                                            id='08b9451c-2a93-415a-9b76-02121565dae7' role="radiogroup">
+                                            <div class="area_card relative block border-box pointer rounded-8 border border-2 border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex flex-column justify-start items-center gap0-5 ground-floor"
+                                                data-area="ground-floor" tabindex="0">
+                                                <img class="fit" height="50"
+                                                    src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/ground-e885ba6b8f633b5a179ef6f72707be1a5d063c5f10c666513a7bbd035b76a558.svg" />
+                                                <span class="block text-secondary-900 text-l mt0-5 fw400 center">
+                                                    Ground Floor
+                                                </span>
+                                                <span data-area="ground-floor"
+                                                    class="selected_sub_element center"></span>
+
+                                                <fieldset
+                                                    class="sub_elements absolute border-box arrow_box arrow_box--widget first_element odd hidden"
+                                                    style="z-index: 99999999; padding-bottom: 5rem;"
+                                                    id="sub_elements_ground-floor">
+                                                    <div
+                                                        class="sub_elements_dropdown_content rounded-8 p2 gap1 grid-form grid-form-2">
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden"
+                                                                    data-area="ground-floor" data-element-id="56"
+                                                                    data-element-name="Rear" tabindex="-1"
+                                                                    type="checkbox" value="56"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_56" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/ground/ground_rear-d0912e410e5100ffb9ecc645681b7c0a1634793b2abf14ab8a34397ccbd5ffe3.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">Rear</span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden"
+                                                                    data-area="ground-floor" data-element-id="36"
+                                                                    data-element-name="Side Infill" tabindex="-1"
+                                                                    type="checkbox" value="36"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_36" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/ground/ground_side_infill-54f0692f0404062e0ccd784423a8bbd3ab0ed6e9326ab58a64f26554bb8bf16f.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">
+                                                                        Side Infill
+                                                                    </span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden"
+                                                                    data-area="ground-floor" data-element-id="54"
+                                                                    data-element-name="Side" tabindex="-1"
+                                                                    type="checkbox" value="54"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_54" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/ground/ground_side-d534f40c2fe497dd998d2cfd1f5d036015ee6bdfe13447c3b5bd266527ec31e6.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">Side</span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden"
+                                                                    data-area="ground-floor" data-element-id="55"
+                                                                    data-element-name="Side And Rear" tabindex="-1"
+                                                                    type="checkbox" value="55"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_55" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/ground/ground_side_and_rear-5536543fe7b42ce4098e6db4c25f8aea58106baccb514e51ad3f5954d4671eef.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">Side
+                                                                        And Rear</span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden"
+                                                                    data-area="ground-floor" data-element-id="57"
+                                                                    data-element-name="Wraparound" tabindex="-1"
+                                                                    type="checkbox" value="57"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_57" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/ground/ground_wraparound-3e79fb2e2cde8f467d69fb6e916e2e8e3c4697768596f9a60555139e5c6d5e72.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">Wraparound</span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+
+                                            <div class="area_card relative block border-box pointer rounded-8 border border-2 border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex flex-column justify-start items-center gap0-5 loft"
+                                                data-area="loft" tabindex="0">
+                                                <img class="fit" height="50"
+                                                    src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/loft-d105f05aa5f651e184abcb955f095c014061dd84f3820a72753f2f5a30a0864b.svg" />
+                                                <span
+                                                    class="block text-secondary-900 text-l mt0-5 fw400 center">Loft</span>
+                                                <span data-area="loft" class="selected_sub_element center"></span>
+
+                                                <fieldset
+                                                    class="sub_elements absolute border-box arrow_box arrow_box--widget  even hidden"
+                                                    style="z-index: 99999999; padding-bottom: 5rem;"
+                                                    id="sub_elements_loft">
+                                                    <div
+                                                        class="sub_elements_dropdown_content rounded-8 p2 gap1 grid-form grid-form-2">
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden" data-area="loft"
+                                                                    data-element-id="63" data-element-name="Main Dormer"
+                                                                    tabindex="-1" type="checkbox" value="63"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_63" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/loft/loft_main_dormer-3e4e4ea743f25e535f23f19c7f879538dcd22c76dec6b82d1105c9f9ffc8fd36.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">Main
+                                                                        Dormer</span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden" data-area="loft"
+                                                                    data-element-id="49"
+                                                                    data-element-name="Outrigger Dormer" tabindex="-1"
+                                                                    type="checkbox" value="49"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_49" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/loft/loft_outrigger_dormer-1abe1062d2bb338a36efeddb5475e10a0d0d0cf22c281a880d58b66bd9035fd6.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">Outrigger
+                                                                        Dormer</span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden" data-area="loft"
+                                                                    data-element-id="64"
+                                                                    data-element-name="Hip To Gable With No Dormer"
+                                                                    tabindex="-1" type="checkbox" value="64"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_64" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/loft/loft_hip_to_gable_with_no_dormer-00e6358fca28a9959c99947ae980d6ea4ac107f39065d044070540c864cf7412.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">Hip
+                                                                        To Gable With No
+                                                                        Dormer</span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden" data-area="loft"
+                                                                    data-element-id="68"
+                                                                    data-element-name="Hip To Gable With Main Dormer"
+                                                                    tabindex="-1" type="checkbox" value="68"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_68" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/loft/loft_hip_to_gable_with_main_dormer-712fad4c01c991e0a81a86296b8c48c90e272ddbf502464709d1ad2e721fad51.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">Hip
+                                                                        To Gable With Main
+                                                                        Dormer</span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden" data-area="loft"
+                                                                    data-element-id="46"
+                                                                    data-element-name="L Shaped Dormer" tabindex="-1"
+                                                                    type="checkbox" value="46"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_46" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/loft/loft_l_shaped_dormer-6720205bfdb37a3e91eca49fd7a4314cc002c280ae525f0decff06f79091424e.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">L
+                                                                        Shaped Dormer</span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+
+                                            <div class="area_card relative block border-box pointer rounded-8 border border-2 border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex flex-column justify-start items-center gap0-5 first-floor"
+                                                data-area="first-floor" tabindex="0">
+                                                <img class="fit" height="50"
+                                                    src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/first-2d437b8965d394951ed627dafbf9534ef99864a64847971390d3dcf77815bd65.svg" />
+                                                <span class="block text-secondary-900 text-l mt0-5 fw400 center">First
+                                                    Floor</span>
+                                                <span data-area="first-floor"
+                                                    class="selected_sub_element center"></span>
+
+                                                <fieldset
+                                                    class="sub_elements absolute border-box arrow_box arrow_box--widget  odd hidden"
+                                                    style="z-index: 99999999; padding-bottom: 5rem;"
+                                                    id="sub_elements_first-floor">
+                                                    <div
+                                                        class="sub_elements_dropdown_content rounded-8 p2 gap1 grid-form grid-form-2">
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden"
+                                                                    data-area="first-floor" data-element-id="58"
+                                                                    data-element-name="Side" tabindex="-1"
+                                                                    type="checkbox" value="58"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_58" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/first/first_side-2d437b8965d394951ed627dafbf9534ef99864a64847971390d3dcf77815bd65.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">Side</span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden"
+                                                                    data-area="first-floor" data-element-id="59"
+                                                                    data-element-name="Side And Rear" tabindex="-1"
+                                                                    type="checkbox" value="59"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_59" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/first/first_side_and_rear-bd505473259d4b6a1e0f703bb0aef9b80d7c1302a1b43ec55aacb90ebe11754a.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">Side
+                                                                        And Rear</span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden"
+                                                                    data-area="first-floor" data-element-id="60"
+                                                                    data-element-name="Rear" tabindex="-1"
+                                                                    type="checkbox" value="60"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_60" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/first/first_rear-14534f4a911189d0b0eae3afa418ca0ea25f282d3bf473966c1137355e54c520.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">Rear</span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden"
+                                                                    data-area="first-floor" data-element-id="40"
+                                                                    data-element-name="Rear Over Outrigger"
+                                                                    tabindex="-1" type="checkbox" value="40"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_40" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/first/first_rear_over_outrigger-b96aeafff1a90033e876374500d327cb6aa1080ca5de84edc311e6aa72f2b3ee.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">
+                                                                        Rear Over Outrigger
+                                                                    </span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden"
+                                                                    data-area="first-floor" data-element-id="41"
+                                                                    data-element-name="Rear Over Ground Floor"
+                                                                    tabindex="-1" type="checkbox" value="41"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_41" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/first/first_rear_over_ground_floor-1eceda635e100604bf632dd945659b2f0873a91130ddfd2bfd95c3bd0d6b03fb.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">
+                                                                        Rear
+                                                                        Over Ground Floor
+                                                                    </span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+
+                                            <div class="area_card relative block border-box pointer rounded-8 border border-2 border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex flex-column justify-start items-center gap0-5 other"
+                                                data-area="other" tabindex="0">
+                                                <img class="fit" height="50"
+                                                    src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/other-f09b6f0eae68e7eb349c46f13ce22a5f1439a3f3abcc73306c929a71775bd2a6.svg" />
+                                                <span
+                                                    class="block text-secondary-900 text-l mt0-5 fw400 center">Other</span>
+                                                <span data-area="other" class="selected_sub_element center"></span>
+
+                                                <fieldset
+                                                    class="sub_elements absolute border-box arrow_box arrow_box--widget  even hidden"
+                                                    style="z-index: 99999999; padding-bottom: 5rem;"
+                                                    id="sub_elements_other">
+                                                    <div
+                                                        class="sub_elements_dropdown_content rounded-8 p2 gap1 grid-form grid-form-2">
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden" data-area="other"
+                                                                    data-element-id="67"
+                                                                    data-element-name="Garden - Annex" tabindex="-1"
+                                                                    type="checkbox" value="67"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_67" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/garden/garden_annex-29d32bc86ad82410353d78547d5fc08f0b3dbf2951e912f8848d5d22a4ab3c3b.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">Garden
+                                                                        - Annex</span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden" data-area="other"
+                                                                    data-element-id="73"
+                                                                    data-element-name="Garage - Conversion"
+                                                                    tabindex="-1" type="checkbox" value="73"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_73" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/garage/garage_conversion-d534f40c2fe497dd998d2cfd1f5d036015ee6bdfe13447c3b5bd266527ec31e6.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">Garage
+                                                                        - Conversion</span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden" data-area="other"
+                                                                    data-element-id="61"
+                                                                    data-element-name="Two Storey - Side" tabindex="-1"
+                                                                    type="checkbox" value="61"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_61" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/two_storey/two_storey_side-454921500a1da23425dd42198aed1b7d7f8cf61ed633385cc0a3f0620cde17bf.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">Two
+                                                                        Storey - Side</span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+
+                                                        <div data-component="tile-card-selector-component"
+                                                            class="tile-card-selector-component fullheight">
+
+
+                                                            <label class="relative fullheight block" tabindex="0">
+                                                                <input class="radio_visually_hidden" data-area="other"
+                                                                    data-element-id="62"
+                                                                    data-element-name="Two Storey - Rear" tabindex="-1"
+                                                                    type="checkbox" value="62"
+                                                                    name="quick_quote[element_ids][]"
+                                                                    id="quick_quote_element_ids_62" />
+
+
+
+                                                                <div
+                                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+                                                                    <img class="fit" height="50"
+                                                                        src="https://dwpbnzvyubj62.cloudfront.net/assets/_global/icons/house_types/two_storey/two_storey_rear-0ca8db3ebc2dcde66c8be0cb0f0d09c7a0a53f2066535366eef0fc3227972024.svg" />
+
+                                                                    <span
+                                                                        class="text-secondary-900 text-l fw400 center">Two
+                                                                        Storey - Rear</span>
+                                                                </div>
+
+                                                            </label>
+
+                                                        </div>
+
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+
+
+
+                                        <script>
+                                            $(document).ready(function () {
+                                                // Show relative areas as active on checked elements
+                                                $(".sub_elements input:checked").each(function () {
+                                                    highlightArea(this);
+                                                });
+
+                                                function showSubElements(e) {
+                                                    var area = $(e.currentTarget).data("area");
+                                                    if ($('#08b9451c-2a93-415a-9b76-02121565dae7 #sub_elements_' + area).is(":hidden")) {
+                                                        $('#08b9451c-2a93-415a-9b76-02121565dae7 #sub_elements_' + area).show();
+                                                        e.stopPropagation();
+                                                    } else {
+                                                        $('#08b9451c-2a93-415a-9b76-02121565dae7 .sub_elements').hide();
+                                                    }
+                                                }
+
+                                                // Show sub elements when area is selected
+                                                $('#08b9451c-2a93-415a-9b76-02121565dae7 .area_card').on('click', function (e) {
+                                                    hideSubGroup();
+                                                    showSubElements(e)
+                                                });
+
+                                                $('#08b9451c-2a93-415a-9b76-02121565dae7 .area_button').on('keydown', function (e) {
+                                                    if (e.keyCode === 32) {
+                                                        showSubElements(e);
+                                                        e.preventDefault();
+                                                    }
+                                                });
+
+                                                // Hide sub elements when another area is clicked -->
+                                                $(document).click(function () {
+                                                    hideSubGroup();
+                                                });
+
+                                                $(document).on('change', "#08b9451c-2a93-415a-9b76-02121565dae7 .radio_visually_hidden", function () {
+                                                    highlightArea(this);
+                                                    onlyAllowOneSelectionPerSubgroup(this);
+                                                    hideSubGroup();
+
+                                                    var selected_element_areas = $('#08b9451c-2a93-415a-9b76-02121565dae7 .area_card:has(input:checked)').map((i, e) => e.dataset.area).get();
+                                                    var selected_element_ids = $('#08b9451c-2a93-415a-9b76-02121565dae7 input:checked').map((i, e) => e.dataset.elementId).get();
+
+                                                    window.dispatchEvent(new CustomEvent('element-selector-changed',
+                                                        {
+                                                            detail: {
+                                                                selected_element_areas: selected_element_areas,
+                                                                selected_element_ids: selected_element_ids
+                                                            }
+                                                        }
+                                                    ));
+                                                });
+
+                                                function onlyAllowOneSelectionPerSubgroup(e) {
+                                                    var area = $(e).data("area");
+                                                    if (e.checked) {
+                                                        $('input[data-area=' + area + ']').prop('checked', false);
+                                                        $(e).prop('checked', true); // Checks it
+                                                    } else {
+                                                        $(e).prop('checked', false);
+                                                    }
+                                                }
+
+                                                function highlightArea(e) {
+                                                    var area = $(e).data("area");
+                                                    var element_name = $(e).data("elementName");
+                                                    var all_area_cards = $("#08b9451c-2a93-415a-9b76-02121565dae7 .area_card")
+                                                    var area_card = $("#08b9451c-2a93-415a-9b76-02121565dae7 .area_card[data-area='" + area + "']");
+                                                    var sub_element_span = $("span[data-area='" + area + "'].selected_sub_element");
+
+                                                    if (true) {
+                                                        var has_checked_in_area = area_card.find('input:checked').length > 0;
+
+                                                        if (has_checked_in_area) {
+                                                            area_card.addClass('fake_checked');
+                                                            sub_element_span.text(element_name);
+                                                        } else {
+                                                            area_card.removeClass('fake_checked');
+                                                            sub_element_span.text('');
+                                                        }
+                                                    } else {
+                                                        if (e.checked) {
+                                                            $("span.selected_sub_element").text('');
+                                                            all_area_cards.removeClass('fake_checked')
+                                                            area_card.addClass('fake_checked');
+                                                            sub_element_span.text(element_name);
+                                                        }
+                                                    }
+                                                }
+
+                                                function hideSubGroup() {
+                                                    $('#08b9451c-2a93-415a-9b76-02121565dae7 .sub_elements').hide();
+                                                }
+                                            });
+                                        </script>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col col-12 mb3-5 md-mb4">
+
+                                <div>
+                                    <div class="ml0">
+                                        <h3 class="text-secondary-800 m0 mb0 text-xs md-text-s">How many bedrooms does
+                                            this property have?
+                                        </h3>
+                                        <p class="text-m md-text-l text-secondary-800 mt0-5 mb2">This will give us an
+                                            idea of the property's
+                                            size</p>
+                                    </div>
+
+                                    <fieldset class="grid-form grid-form-2 md-grid-form-5 gap1 " role="radiogroup">
+
+                                        <div data-component="tile-card-selector-component"
+                                            class="tile-card-selector-component fullheight">
+
+
+                                            <label class="relative fullheight block" tabindex="0">
+                                                <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                    value="1" name="quick_quote[bedrooms]"
+                                                    id="quick_quote_bedrooms_1" />
+
+
+
+                                                <div
+                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                    <span class="text-secondary-900 text-l fw400 center">1</span>
+                                                </div>
+
+                                            </label>
+
+                                        </div>
+
+
+                                        <div data-component="tile-card-selector-component"
+                                            class="tile-card-selector-component fullheight">
+
+
+                                            <label class="relative fullheight block" tabindex="0">
+                                                <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                    value="2" name="quick_quote[bedrooms]"
+                                                    id="quick_quote_bedrooms_2" />
+
+
+
+                                                <div
+                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                    <span class="text-secondary-900 text-l fw400 center">2</span>
+                                                </div>
+
+                                            </label>
+
+                                        </div>
+
+
+                                        <div data-component="tile-card-selector-component"
+                                            class="tile-card-selector-component fullheight">
+
+
+                                            <label class="relative fullheight block" tabindex="0">
+                                                <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                    value="3" name="quick_quote[bedrooms]"
+                                                    id="quick_quote_bedrooms_3" />
+
+
+
+                                                <div
+                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                    <span class="text-secondary-900 text-l fw400 center">3</span>
+                                                </div>
+
+                                            </label>
+
+                                        </div>
+
+
+                                        <div data-component="tile-card-selector-component"
+                                            class="tile-card-selector-component fullheight">
+
+
+                                            <label class="relative fullheight block" tabindex="0">
+                                                <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                    value="4" name="quick_quote[bedrooms]"
+                                                    id="quick_quote_bedrooms_4" />
+
+
+
+                                                <div
+                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                    <span class="text-secondary-900 text-l fw400 center">4</span>
+                                                </div>
+
+                                            </label>
+
+                                        </div>
+
+
+                                        <div data-component="tile-card-selector-component"
+                                            class="tile-card-selector-component fullheight">
+
+
+                                            <label class="relative fullheight block" tabindex="0">
+                                                <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                    value="5" name="quick_quote[bedrooms]"
+                                                    id="quick_quote_bedrooms_5" />
+
+
+
+                                                <div
+                                                    class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                    <span class="text-secondary-900 text-l fw400 center">5+</span>
+                                                </div>
+
+                                            </label>
+
+                                        </div>
+
+                                    </fieldset>
+
+                                    <div class="pl1">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <fieldset class="col col-12 mb3-5 md-mb4" role="radiogroup">
+
+                                <div class="my1 ml0">
+                                    <h3 class="text-secondary-800 m0 mb2 text-xs md-text-s">When are you hoping to start
+                                        the design
+                                        process?</h3>
+                                </div>
+
+                                <div class="col col-12 grid-form grid-form-2 md-grid-form-5 gap1 ">
+
+                                    <div data-component="tile-card-selector-component"
+                                        class="tile-card-selector-component fullheight">
+
+
+                                        <label class="relative fullheight block" tabindex="0">
+                                            <input class="radio_visually_hidden" tabindex="-1" type="radio" value="ASAP"
+                                                name="quick_quote[expected_project_start_timeframe]"
+                                                id="quick_quote_expected_project_start_timeframe_asap" />
+
+
+
+                                            <div
+                                                class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                <span class="text-secondary-900 text-l fw400 center">ASAP</span>
+                                            </div>
+
+                                        </label>
+
+                                    </div>
+
+
+                                    <div data-component="tile-card-selector-component"
+                                        class="tile-card-selector-component fullheight">
+
+
+                                        <label class="relative fullheight block" tabindex="0">
+                                            <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                value="3 Months" name="quick_quote[expected_project_start_timeframe]"
+                                                id="quick_quote_expected_project_start_timeframe_3_months" />
+
+
+
+                                            <div
+                                                class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                <span class="text-secondary-900 text-l fw400 center">3 Months</span>
+                                            </div>
+
+                                        </label>
+
+                                    </div>
+
+
+                                    <div data-component="tile-card-selector-component"
+                                        class="tile-card-selector-component fullheight">
+
+
+                                        <label class="relative fullheight block" tabindex="0">
+                                            <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                value="6 Months" name="quick_quote[expected_project_start_timeframe]"
+                                                id="quick_quote_expected_project_start_timeframe_6_months" />
+
+
+
+                                            <div
+                                                class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                <span class="text-secondary-900 text-l fw400 center">6 Months</span>
+                                            </div>
+
+                                        </label>
+
+                                    </div>
+
+
+                                    <div data-component="tile-card-selector-component"
+                                        class="tile-card-selector-component fullheight">
+
+
+                                        <label class="relative fullheight block" tabindex="0">
+                                            <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                value="12 Months +" name="quick_quote[expected_project_start_timeframe]"
+                                                id="quick_quote_expected_project_start_timeframe_12_months_" />
+
+
+
+                                            <div
+                                                class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                <span class="text-secondary-900 text-l fw400 center">12 Months +</span>
+                                            </div>
+
+                                        </label>
+
+                                    </div>
+
+
+                                    <div data-component="tile-card-selector-component"
+                                        class="tile-card-selector-component fullheight">
+
+
+                                        <label class="relative fullheight block" tabindex="0">
+                                            <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                value="I&#39;m not sure"
+                                                name="quick_quote[expected_project_start_timeframe]"
+                                                id="quick_quote_expected_project_start_timeframe_im_not_sure" />
+
+
+
+                                            <div
+                                                class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                <span class="text-secondary-900 text-l fw400 center">I&#39;m not
+                                                    sure</span>
+                                            </div>
+
+                                        </label>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col col-12 pl1">
+                                </div>
+
+                            </fieldset>
+
+                            <div class="mb3-5 md-mb4">
+
+                                <div>
+                                    <h3 class="text-secondary-800 m0 mb2 text-xs md-text-s">Are you interested in any of
+                                        these services?
+                                    </h3>
+
+                                    <div class="">
+                                        <div class='fullwidth'>
+                                            <div class="grid-form grid-form-2 center gap1">
+
+                                                <div data-component="tile-card-selector-component"
+                                                    class="tile-card-selector-component fullheight">
+
+
+                                                    <label class="relative fullheight block" tabindex="0">
+                                                        <input class="radio_visually_hidden" tabindex="-1"
+                                                            type="checkbox" value="design"
+                                                            name="quick_quote[services_interested][]"
+                                                            id="quick_quote_services_interested_design" />
+
+
+
+                                                        <div
+                                                            class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                            <span
+                                                                class="text-secondary-900 text-l fw400 center">Architectural
+                                                                drawings</span>
+                                                        </div>
+
+                                                    </label>
+
+                                                </div>
+
+
+                                                <div data-component="tile-card-selector-component"
+                                                    class="tile-card-selector-component fullheight">
+
+
+                                                    <label class="relative fullheight block" tabindex="0">
+                                                        <input class="radio_visually_hidden" tabindex="-1"
+                                                            type="checkbox" value="design_planning"
+                                                            name="quick_quote[services_interested][]"
+                                                            id="quick_quote_services_interested_design_planning" />
+
+
+
+                                                        <div
+                                                            class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                            <span class="text-secondary-900 text-l fw400 center">Design
+                                                                and planning advice</span>
+                                                        </div>
+
+                                                    </label>
+
+                                                </div>
+
+
+                                                <div data-component="tile-card-selector-component"
+                                                    class="tile-card-selector-component fullheight">
+
+
+                                                    <label class="relative fullheight block" tabindex="0">
+                                                        <input class="radio_visually_hidden" tabindex="-1"
+                                                            type="checkbox" value="finance"
+                                                            name="quick_quote[services_interested][]"
+                                                            id="quick_quote_services_interested_finance" />
+
+
+
+                                                        <div
+                                                            class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                            <span class="text-secondary-900 text-l fw400 center">Help
+                                                                with financing my build</span>
+                                                        </div>
+
+                                                    </label>
+
+                                                </div>
+
+
+                                                <div data-component="tile-card-selector-component"
+                                                    class="tile-card-selector-component fullheight">
+
+
+                                                    <label class="relative fullheight block" tabindex="0">
+                                                        <input class="radio_visually_hidden" tabindex="-1"
+                                                            type="checkbox" value="contractor_connect"
+                                                            name="quick_quote[services_interested][]"
+                                                            id="quick_quote_services_interested_contractor_connect" />
+
+
+
+                                                        <div
+                                                            class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                            <span class="text-secondary-900 text-l fw400 center">Help
+                                                                finding a builder</span>
+                                                        </div>
+
+                                                    </label>
+
+                                                </div>
+
+
+                                                <div data-component="tile-card-selector-component"
+                                                    class="tile-card-selector-component fullheight">
+
+
+                                                    <label class="relative fullheight block" tabindex="0">
+
+                                                        <input type="radio" name="other_professionals_1"
+                                                            id="other_professionals_1_" class="radio_visually_hidden"
+                                                            data-dropdown="other_professionals_1" tabindex="-1" />
+
+
+                                                        <div
+                                                            class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                            <span class="text-secondary-900 text-l fw400 center">Help
+                                                                finding other
+                                                                professionals</span>
+                                                        </div>
+
+                                                    </label>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div id="other_professionals_1" class="hidden mt2-5">
+                                            <span class="text-m text-neutal-800 mb1 block">What professionals are you
+                                                looking for?</span>
+                                            <div class="grid-form grid-form-2 center gap1">
+
+                                                <div data-component="tile-card-selector-component"
+                                                    class="tile-card-selector-component fullheight">
+
+
+                                                    <label class="relative fullheight block" tabindex="0">
+                                                        <input class="radio_visually_hidden" tabindex="-1"
+                                                            type="checkbox" value="structural_engineer"
+                                                            name="quick_quote[services_interested][]"
+                                                            id="quick_quote_services_interested_structural_engineer" />
+
+
+
+                                                        <div
+                                                            class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                            <span
+                                                                class="text-secondary-900 text-l fw400 center">Structural
+                                                                engineer</span>
+                                                        </div>
+
+                                                    </label>
+
+                                                </div>
+
+
+                                                <div data-component="tile-card-selector-component"
+                                                    class="tile-card-selector-component fullheight">
+
+
+                                                    <label class="relative fullheight block" tabindex="0">
+                                                        <input class="radio_visually_hidden" tabindex="-1"
+                                                            type="checkbox" value="party_wall_surveyor"
+                                                            name="quick_quote[services_interested][]"
+                                                            id="quick_quote_services_interested_party_wall_surveyor" />
+
+
+
+                                                        <div
+                                                            class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                            <span class="text-secondary-900 text-l fw400 center">Party
+                                                                wall surveyor</span>
+                                                        </div>
+
+                                                    </label>
+
+                                                </div>
+
+
+                                                <div data-component="tile-card-selector-component"
+                                                    class="tile-card-selector-component fullheight">
+
+
+                                                    <label class="relative fullheight block" tabindex="0">
+                                                        <input class="radio_visually_hidden" tabindex="-1"
+                                                            type="checkbox" value="building_control_approver"
+                                                            name="quick_quote[services_interested][]"
+                                                            id="quick_quote_services_interested_building_control_approver" />
+
+
+
+                                                        <div
+                                                            class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                            <span
+                                                                class="text-secondary-900 text-l fw400 center">Building
+                                                                control approver</span>
+                                                        </div>
+
+                                                    </label>
+
+                                                </div>
+
+
+                                                <div data-component="tile-card-selector-component"
+                                                    class="tile-card-selector-component fullheight">
+
+
+                                                    <label class="relative fullheight block" tabindex="0">
+
+                                                        <input type="radio" name="other_professionals_2"
+                                                            id="other_professionals_2_" class="radio_visually_hidden"
+                                                            data-dropdown="other_professionals_2" tabindex="-1" />
+
+
+                                                        <div
+                                                            class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                            <span class="text-secondary-900 text-l fw400 center">Other
+                                                                professionals</span>
+                                                        </div>
+
+                                                    </label>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="other_professionals_2" class="hidden mt2-5">
+                                        <span class="text-m text-neutral-800 mb1 block">Tell us which service you
+                                            need</span>
+                                        <div class="input string optional quick_quote_services_interested"><input
+                                                style="margin-bottom: 0 !important;" value="" multiple="multiple"
+                                                class="string optional" type="text"
+                                                name="quick_quote[services_interested][]"
+                                                id="quick_quote_services_interested" />
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <script>
+                                    let otherProfs1Toggle = $("input[data-dropdown='other_professionals_1']");
+                                    let otherProfs1Section = $('#other_professionals_1');
+                                    let otherProfs2Toggle = $("input[data-dropdown='other_professionals_2']");
+                                    let otherProfs2Section = $('#other_professionals_2');
+
+                                    const toggle_other_professionals_1 = (new_state = 'closed') => {
+                                        let isVisible = otherProfs1Section.is(':visible');
+                                        if (new_state == 'closed' || isVisible) {
+                                            otherProfs1Section.slideUp(() => {
+                                                otherProfs1Toggle.prop('checked', false);
+                                                otherProfs1Section.find('input[id^=quick_quote_services_interested]').prop('checked', false);
+                                            });
+                                            toggle_other_professionals_2('closed');
+                                        } else if (new_state == 'open' || !isVisible) {
+                                            otherProfs1Section.slideDown();
+                                        }
+                                    };
+
+                                    const toggle_other_professionals_2 = (new_state) => {
+                                        let isVisible = otherProfs2Section.is(':visible');
+                                        if (new_state == 'closed' || isVisible) {
+                                            otherProfs2Section.slideUp(() => {
+                                                otherProfs2Toggle.prop('checked', false);
+                                                otherProfs2Section.find('input[id^=quick_quote_services_interested]').val('');
+                                            });
+                                        } else if (new_state == 'open' || !isVisible) {
+                                            otherProfs2Section.slideDown();
+                                        }
+                                    };
+
+                                    otherProfs1Toggle.click(toggle_other_professionals_1);
+                                    otherProfs2Toggle.click(toggle_other_professionals_2);
+                                </script>
+
+                            </div>
+
+
+                            <script>
+                                window.addEventListener('element-selector-changed', function (e) {
+                                    var area_requiring_clarity_input = ['loft', 'ground-floor'];
+
+                                    if (e.detail.selected_element_areas.some(a => area_requiring_clarity_input.includes(a))) {
+                                        $('#xcf02bba9-2485-4941-8ff3-13421945b09c').slideDown();
+                                    } else {
+                                        $('#xcf02bba9-2485-4941-8ff3-13421945b09c').slideUp();
+                                        $('#xcf02bba9-2485-4941-8ff3-13421945b09c input').prop('checked', false);
+                                    }
+                                })
+                            </script>
+
+                            <div id='xcf02bba9-2485-4941-8ff3-13421945b09c' class='hidden mb3-5 md-mb4'>
+                                <div class="my1 ml0">
+                                    <h3 class="text-secondary-800 m0 mb2 text-xs md-text-s">How clear are you on the
+                                        design you want?</h3>
+                                </div>
+
+                                <div class="grid-form grid-form-2 md-grid-form-4 gap1 ">
+
+                                    <div data-component="tile-card-selector-component"
+                                        class="tile-card-selector-component fullheight">
+
+
+                                        <label class="relative fullheight block" tabindex="0">
+                                            <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                value="no_idea" name="quick_quote[design_clarity]"
+                                                id="quick_quote_design_clarity_no_idea" />
+
+
+
+                                            <div
+                                                class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                <span class="text-secondary-900 text-l fw400 center">No idea</span>
+                                            </div>
+
+                                        </label>
+
+                                    </div>
+
+
+                                    <div data-component="tile-card-selector-component"
+                                        class="tile-card-selector-component fullheight">
+
+
+                                        <label class="relative fullheight block" tabindex="0">
+                                            <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                value="unsure" name="quick_quote[design_clarity]"
+                                                id="quick_quote_design_clarity_unsure" />
+
+
+
+                                            <div
+                                                class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                <span class="text-secondary-900 text-l fw400 center">Unsure</span>
+                                            </div>
+
+                                        </label>
+
+                                    </div>
+
+
+                                    <div data-component="tile-card-selector-component"
+                                        class="tile-card-selector-component fullheight">
+
+
+                                        <label class="relative fullheight block" tabindex="0">
+                                            <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                value="quite_clear" name="quick_quote[design_clarity]"
+                                                id="quick_quote_design_clarity_quite_clear" />
+
+
+
+                                            <div
+                                                class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                <span class="text-secondary-900 text-l fw400 center">Quite clear</span>
+                                            </div>
+
+                                        </label>
+
+                                    </div>
+
+
+                                    <div data-component="tile-card-selector-component"
+                                        class="tile-card-selector-component fullheight">
+
+
+                                        <label class="relative fullheight block" tabindex="0">
+                                            <input class="radio_visually_hidden" tabindex="-1" type="radio"
+                                                value="very_clear" name="quick_quote[design_clarity]"
+                                                id="quick_quote_design_clarity_very_clear" />
+
+
+
+                                            <div
+                                                class="tile-card block border-box pointer rounded-8 border border-2 fullheight border-neutral-40 bg-neutral-0 hover-bg-primary-100 hover-border-primary-100 flex justify-center items-center colgap1 rowgap1 flex-column">
+
+                                                <span class="text-secondary-900 text-l fw400 center">Very clear</span>
+                                            </div>
+
+                                        </label>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                        <div id="quick-quote-user-details" class="col col-12 mb3-25">
+                            <div class="border-top border-neutral-40 pt3-75 md-pt4">
+                                <h2 class='text-xs md-text-s mt0 mb2'>A few details from you, please...</h2>
+
+                                <div>
+
+                                    <div class="">
+                                        <div class="grid-form grid-form-1 md-grid-form-2 rowgap0">
+                                            <div class="input string required quick_quote_firstname"><label
+                                                    class="string required" for="quick_quote_firstname"><abbr
+                                                        title="required">*</abbr> First name</label><input
+                                                    autocomplete="given-name" class="string required"
+                                                    required="required" aria-required="true" placeholder="Mick"
+                                                    type="text" name="quick_quote[firstname]"
+                                                    id="quick_quote_firstname" />
+                                            </div>
+
+                                            <div class="input string required quick_quote_lastname"><label
+                                                    class="string required" for="quick_quote_lastname"><abbr
+                                                        title="required">*</abbr> Last name</label><input
+                                                    autocomplete="family-name" class="string required"
+                                                    required="required" aria-required="true" placeholder="Hucknall"
+                                                    type="text" name="quick_quote[lastname]"
+                                                    id="quick_quote_lastname" />
+                                            </div>
+
+                                            <div class="input string required quick_quote_street"><label
+                                                    class="string required" for="quick_quote_street"><abbr
+                                                        title="required">*</abbr> First line of project
+                                                    address</label><input autocomplete="street-address"
+                                                    class="string required" required="required" aria-required="true"
+                                                    placeholder="Holding Back Extension Ave." type="text"
+                                                    name="quick_quote[street]" id="quick_quote_street" /></div>
+
+                                            <div class="input string required quick_quote_postcode"><label
+                                                    class="string required" for="quick_quote_postcode"><abbr
+                                                        title="required">*</abbr> Project postcode</label><input
+                                                    autocomplete="postal-code" class="string required"
+                                                    required="required" aria-required="true" placeholder="SW1A 2AB"
+                                                    type="text" name="quick_quote[postcode]"
+                                                    id="quick_quote_postcode" />
+                                            </div>
+
+                                            <div class="input email required quick_quote_email"><label
+                                                    class="email required" for="quick_quote_email"><abbr
+                                                        title="required">*</abbr> Email</label><input
+                                                    autocomplete="email" class="string email required"
+                                                    required="required" aria-required="true"
+                                                    placeholder="Mark@simplyredbrick.com" type="email"
+                                                    name="quick_quote[email]" id="quick_quote_email" /></div>
+
+                                            <div class="input string required quick_quote_number"><label
+                                                    class="string required" for="quick_quote_number"><abbr
+                                                        title="required">*</abbr> Phone</label><input
+                                                    autocomplete="tel-national" class="string required"
+                                                    required="required" aria-required="true" placeholder="0781234567"
+                                                    type="text" name="quick_quote[number]" id="quick_quote_number" />
+                                            </div>
+
+                                            <div class="input select optional quick_quote_user_source_id"><label
+                                                    class="select optional" for="quick_quote_user_source_id">Where did
+                                                    you hear about us?</label><select class="select optional"
+                                                    name="quick_quote[user_source_id]" id="quick_quote_user_source_id">
+                                                    <option value="">None selected</option>
+                                                    <option value="1">Houzz</option>
+                                                    <option value="2">Google</option>
+                                                    <option value="3">Facebook / Instagram</option>
+                                                    <option value="4">Recommended by a friend / colleague</option>
+                                                    <option value="5">Press</option>
+                                                    <option value="7">Radio</option>
+                                                    <option value="148">ITV - Television Ad</option>
+                                                    <option value="149">Blog</option>
+                                                    <option value="150">Pinterest</option>
+                                                    <option value="152">LinkedIn</option>
+                                                    <option value="153">Trade show</option>
+                                                    <option value="194">Advertising Board</option>
+                                                    <option value="200">Rightmove - Calculator</option>
+                                                </select></div>
+                                        </div>
+
+
+
+                                        <label class="flex items-center pointer mt2" for="quick_quote_accepted_terms">
+                                            <input name="quick_quote[accepted_terms]" type="hidden" value="0"
+                                                autocomplete="off" /><input required="required"
+                                                class="w18 h18 mr2 flex-none" type="checkbox" value="1"
+                                                name="quick_quote[accepted_terms]" id="quick_quote_accepted_terms" />
+                                            <span>I accept the <a class="underline hover-text-info-400"
+                                                    data-remote="true"
+                                                    href="https://resi.co.uk/sign_up_terms_and_conditions">terms and
+                                                    conditions</a></span>
+                                        </label>
+                                        <label class="flex items-center pointer mt2-5" for="quick_quote_email_consent">
+                                            <input name="quick_quote[email_consent]" type="hidden" value="0"
+                                                autocomplete="off" /><input class="w18 h18 mr2 flex-none"
+                                                type="checkbox" value="1" name="quick_quote[email_consent]"
+                                                id="quick_quote_email_consent" />
+                                            <span>Keep me updated on Resi news, events and offers.</span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col col-12 flex justify-center">
+
+                            <button type="submit"
+                                data-ahoy="{&quot;event&quot;:&quot;quick_quote.new.submit&quot;,&quot;cta&quot;:&quot;Reveal my quick quote&quot;,&quot;path&quot;:&quot;/quick_quotes/new&quot;}"
+                                data-component="button-solid"
+                                class="border-box svg-block items-center  pointer svg-20 rounded-full fit-content flex text-neutral-0 svg-neutral-0 bg-primary-700 border border-2 border-primary-700 hover-text-secondary-800 hover-svg-secondary-800 hover-bg-primary-100 hover-border-primary-700 colgap1 px2-25 py2 "
+                                style="">
+                                <span class='text-m fw700'>
+                                    Reveal my quick quote
+                                </span>
+
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.2929 18.293C10.9024 18.6835 10.9024 19.3166 11.2929 19.7072C11.6834 20.0977 12.3166 20.0977 12.7071 19.7072L19.7071 12.7072C20.0976 12.3166 20.0976 11.6835 19.7071 11.293L12.7071 4.29295C12.3166 3.90243 11.6834 3.90243 11.2929 4.29295C10.9024 4.68348 10.9024 5.31664 11.2929 5.70717L16.5858 11.0001L5 11.0001C4.44772 11.0001 4 11.4478 4 12.0001C4 12.5523 4.44772 13.0001 5 13.0001L16.5858 13.0001L11.2929 18.293Z"
+                                        fill="#332F2F" />
+                                </svg>
+
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <style>
+            html.marketing_layout {
+                background-color: #EEEBFC;
+            }
+        </style>
+    </div>
+
+</body>
+<div id="modal-container"></div>
+
+</html>
